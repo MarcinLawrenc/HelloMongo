@@ -6,5 +6,6 @@ const dbname = 'mongo-test'
 mongoClient.connect(url, {}, (error, client) => {
     if (error)
         console.log('can not connect to mongo')
-    console.log('database connected - hello mongo')
+
+    console.log('database connected')
 })
